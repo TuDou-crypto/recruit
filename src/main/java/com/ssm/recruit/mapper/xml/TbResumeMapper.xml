@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.goncenleo.materialplant.mapper.TbResumeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.goncenleo.materialplant.entity.TbResume">
+        <id column="r_id" property="rId" />
+        <result column="r_name" property="rName" />
+        <result column="r_age" property="rAge" />
+        <result column="r_sex" property="rSex" />
+        <result column="r_experience_duration" property="rExperienceDuration" />
+        <result column="r_education" property="rEducation" />
+        <result column="r_self_evaluation" property="rSelfEvaluation" />
+        <result column="r_job_wanted" property="rJobWanted" />
+        <result column="r_work_history" property="rWorkHistory" />
+        <result column="r_high_school" property="rHighSchool" />
+    </resultMap>
+
+</mapper>
